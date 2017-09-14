@@ -21,7 +21,7 @@ func _ready():
 	layout()
 
 func layout():
-	var icon = get_node("/root/item_database").get_item_icon(item)
+	var icon = 0
 	sprite.set_pos(get_size()/2)
 	sprite.set_scale(get_size()/ICON_SIZE)
 	sprite.set_texture(preload("res://items.png"))
